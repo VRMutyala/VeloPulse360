@@ -1,4 +1,4 @@
-# Enterprise Operations & T-SQL Analytics Suite (AdventureWorks2019)
+# Enterprise Operations & T-SQL Analytics VeloPulse 360
 
 Welcome to the **AdventureWorks T-SQL Analytics Suite**, an enterprise-grade data engineering and analytical SQL project. This repository contains a structured collection of parameterised T-SQL stored procedures and business intelligence scripts engineered against the `AdventureWorks2019` relational database.
 
