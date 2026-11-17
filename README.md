@@ -1,8 +1,12 @@
 # Enterprise Operations & T-SQL Analytics VeloPulse 360
 
-Welcome to the **AdventureWorks T-SQL Analytics Suite**, an enterprise-grade data engineering and analytical SQL project. This repository contains a structured collection of parameterised T-SQL stored procedures and business intelligence scripts engineered against the `AdventureWorks2019` relational database.
+VeloPulse 360 is a Power BI report that brings Sales, Inventory, Purchasing and People data for a bicycle company into one place. It has an executive dashboard and four detail pages.
 
-The project models real-world business scenarios across four key organizational pillars: **Sales Analytics**, **Production & Inventory Control**, **Purchasing & Supply Chain Management**, and **Human Resources & Workforce Analytics**.
+The data sits in a SQL Server sample database. I wrote four SQL views, one for each business area, to clean and join the tables before loading them into Power BI.
+
+On top of the views I built DAX measures for revenue growth against last year, low-stock risk, vendor cost variance and headcount. I mocked up the layout first, then built a dark navy theme with orange accents, so every page follows the same design.
+
+While building, I fixed two data issues: duplicate rows from pay history in the People view, and product names that gave identical bars when taken from the wrong view.
 
 ---
 
